@@ -1,0 +1,53 @@
+{
+  "last_updated": "2026-10-11",
+  "components": [
+    {
+      "brand": "隆基",
+      "model": "黑猫X10 / 泰睿瓦",
+      "power_w": 650,
+      "dimensions_mm": {"length": 2382, "width": 1134, "thickness": 30},
+      "area_m2": 2.70,
+      "type": "单晶硅双玻",
+      "notes": "当前户用主流650W档，面积2.7㎡"
+    },
+    {
+      "brand": "隆基",
+      "model": "645W双玻",
+      "power_w": 645,
+      "dimensions_mm": {"length": 2382, "width": 1134, "thickness": 30},
+      "area_m2": 2.70,
+      "type": "单晶硅双玻"
+    },
+    {
+      "brand": "通用",
+      "model": "550-590W档",
+      "power_w_range": "550-590",
+      "dimensions_mm": {"length": 2278, "width": 1134, "thickness": 30},
+      "area_m2": 2.58,
+      "type": "单晶硅"
+    },
+    {
+      "brand": "通用",
+      "model": "600-610W档",
+      "power_w_range": "600-610",
+      "dimensions_mm": {"length": 2382, "width": 1134, "thickness": 30},
+      "area_m2": 2.70,
+      "type": "单晶硅"
+    },
+    {
+      "brand": "通用",
+      "model": "630-650W档",
+      "power_w_range": "630-650",
+      "dimensions_mm": {"length": 2645, "width": 1134, "thickness": 30},
+      "area_m2": 3.00,
+      "type": "单晶硅"
+    }
+  ],
+  "calculation_rules": {
+    "usable_area_ratio": 0.80,
+    "description": "屋面投影面积 × 80% = 可铺组件面积",
+    "panel_count_formula": "可用面积 / 单块面积",
+    "capacity_formula_kW": "组件数 × 单块功率W / 1000",
+    "row_spacing_rule": "保证冬至日9:00-15:00(当地真太阳时)前排不遮挡后排"
+  }
+}
